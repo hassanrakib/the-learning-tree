@@ -13,3 +13,6 @@ body {
 .custom-max-width-430 {
     max-width: 430px;
 }
+.custom-max-width-12-percent {
+    max-width: 12%;
+}
