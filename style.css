@@ -1,0 +1,16 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-carousel-container {
+    height: 75vh;
+}
+
+/* custom utilities */
+.custom-max-width-500 {
+    max-width: 500px;
+}
+.custom-max-width-430 {
+    max-width: 430px;
+}
+

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>The Learning Tree</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg bg-transparent py-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold fs-4" href="#">LearningTree</a>
+                    <button
+                        class="btn btn-outline-info order-lg-3 ms-auto ms-lg-0 me-3 me-lg-0 d-none d-sm-block">Register</button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 column-gap-lg-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">Deals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">Success</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Carousel -->
+            <div class="custom-carousel-container">
+                <div id="carouselExampleCaptions" class="carousel slide h-100" data-bs-pause="false" data-bs-ride="carousel">
+                    <div class="carousel-inner h-100 rounded-1">
+                        <div class="carousel-item active h-100 bg-black rounded-1" data-bs-interval="3000">
+                            <img src="images/cover/cover-1.png"
+                                class="d-block w-100 h-100 object-fit-cover opacity-50 rounded-1" alt="...">
+                            <div
+                                class="carousel-caption p-0 end-0 start-50 top-50 translate-middle d-flex flex-column justify-content-center align-items-center w-75">
+                                <h1>Get Started Digital <br>Learning</h1>
+                                <p>LearningTree is the countrys #1 edTech website that is serving over twenty<br>
+                                    million students. Learn with us easily & effectively.</p>
+                                <a href="#" class="btn btn-info text-white">Get Started</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100 bg-black rounded-1" data-bs-interval="3000">
+                            <img src="images/cover/cover-2.jpg"
+                                class="d-block w-100 h-100 object-fit-cover opacity-50 rounded-1" alt="...">
+                            <div
+                                class="carousel-caption p-0 end-0 start-50 top-50 translate-middle d-flex flex-column justify-content-center align-items-center w-75">
+                                <h1>Get Started Digital <br>Learning</h1>
+                                <p>LearningTree is the countrys #1 edTech website that is serving over twenty<br>
+                                    million students. Learn with us easily & effectively.</p>
+                                <a href="#" class="btn btn-info text-white">Get Started</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100 bg-black rounded-1" data-bs-interval="3000">
+                            <img src="images/cover/cover-3.jpg"
+                                class="d-block w-100 h-100 object-fit-cover opacity-50 rounded-1" alt="...">
+                            <div
+                                class="carousel-caption p-0 end-0 start-50 top-50 translate-middle d-flex flex-column justify-content-center align-items-center w-75">
+                                <h1>Get Started Digital <br>Learning</h1>
+                                <p>LearningTree is the countrys #1 edTech website that is serving over twenty<br>
+                                    million students. Learn with us easily & effectively.</p>
+                                <a href="#" class="btn btn-info text-white">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- Courses -->
+            <section class="py-5 my-3">
+                <header class="text-center mb-5 custom-max-width-430 mx-auto">
+                    <h2>Discover Our Popular Courses</h2>
+                    <p>Our courses are designed in such way that it brings out the best of our students</p>
+                </header>
+                <main class="row row-cols-1 row-cols-lg-2 g-2">
+                    <div class="col">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-3">
+                                    <img src="images/course/course-1.png"
+                                        class="object-fit-cover w-100 h-100 rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 align-self-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                        <p class="card-text">UI/UX design is all about building with creativity.</p>
+                                        <p class="card-text text-info fw-semibold">Price: 20$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-3">
+                                    <img src="images/course/course-2.png"
+                                        class="object-fit-cover w-100 h-100 rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 align-self-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">JavaScript Basic to Advance</h5>
+                                        <p class="card-text">JavaScript is a language widely used in web development.
+                                        </p>
+                                        <p class="card-text text-info fw-semibold">Price: 20$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-3">
+                                    <img src="images/course/course-3.png"
+                                        class="object-fit-cover w-100 h-100 rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 align-self-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">FullStack Web Development</h5>
+                                        <p class="card-text">Web Development is a growing sector where you can dive in.
+                                        </p>
+                                        <p class="card-text text-info fw-semibold">Price: 20$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-3">
+                                    <img src="images/course/course-4.png"
+                                        class="object-fit-cover w-100 h-100 rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 align-self-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Digital Marketing</h5>
+                                        <p class="card-text">Learn basic to advance digital marketing skills now.
+                                        </p>
+                                        <p class="card-text text-info fw-semibold">Price: 20$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-3">
+                                    <img src="images/course/course-5.png"
+                                        class="object-fit-cover w-100 h-100 rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 align-self-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Photography Basic Rules</h5>
+                                        <p class="card-text">Photography is an amazing skill that you might need.
+                                        </p>
+                                        <p class="card-text text-info fw-semibold">Price: 20$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-3">
+                                    <img src="images/course/course-6.png"
+                                        class="object-fit-cover w-100 h-100 rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 align-self-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Motion Graphics</h5>
+                                        <p class="card-text">Learn Adobe softwares time effectively with LearningTree.
+                                        </p>
+                                        <p class="card-text text-info fw-semibold">Price: 20$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <div class="text-center mt-3">
+                    <button class="btn btn-info text-white">See More Courses</button>
+                </div>
+            </section>
+            <!-- Ready to Join -->
+            <section class="mb-5">
+                <div class="bg-primary text-center text-lg-start d-flex flex-column flex-lg-row align-items-center justify-content-between p-5 rounded-2">
+                    <div class="me-0 me-lg-3 custom-max-width-500">
+                        <h3 class="text-white">Ready to join?</h3>
+                        <p class="text-white">We are currently accepting new students in our online skill learning batches.</p>
+                    </div>
+                    <button class="btn bg-white text-info text-nowrap">Register Now</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
